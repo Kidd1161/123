@@ -1,0 +1,382 @@
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<div class="container" style="width:60%">
+  <h1>食神餐廳</h1>
+  <h0>碳解減廢,綠色家園</h0>
+  <br>
+  <br>
+  <br>
+  <label class="label-input100" for="first-name">姓名 *</label>
+        <div class="wrap-input100 validate-input" data-validate="姓名為必填">
+          <input id="name" class="input100" type="text" placeholder="王小明">
+          <span class="focus-input100"></span>
+        </div>
+  
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          <h3>預噴耗用量大</h3>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>飯</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px"> 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+        <td>菜</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+              <td>肉</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+                        <td>海鮮</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+          
+    </tbody>
+  </table>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+            <h3>多次清洗耗用量大</h3>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>飯</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px"> 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+        <td>菜</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+              <td>肉</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px"> 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+                        <td>海鮮</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+          
+    </tbody>
+  </table>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+                      <h3>單次生產後,補酸用量大</h3>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>飯</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px"> 
+        </td>
+      </tr>
+      <tr>
+        <td>菜</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+              <td>肉</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+                        <td>海鮮</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+          
+    </tbody>
+  </table>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+                      <h3>更換耗用量大</h3>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>飯</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+        <td>菜</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+      <td>肉</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+      <td>海鮮</td>
+        <td>多</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>適中</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>少</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+        <td>不要</td>
+        <td>
+          <input type="radio" style="width: 45px; padding: 1px" > 
+        </td>
+      </tr>
+      <tr>
+          
+    </tbody>
+  </table>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+  </table>
+  <br>
+  <br>
+  <br>
+  <button class="btn btn-block btn-success btn-large">送出</button>
+</div>
