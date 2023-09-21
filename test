@@ -1,6 +1,47 @@
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $('#google-form').submit(function (e) {
+      e.preventDefault();
+      if ($('#name').val() && $('#score').val()) {//需要先確認必填欄位是否填寫
+        $.ajax({
+          url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjjxuH4uiYQwyn9MDu6dVfSBNUtzzZSZSI4UDbYaWEi5uBuA/formResponse",
+          crossDomain: true,//解決跨網域CORS的問題
+          data: {
+            "entry.866338860": $('#valve').val(),
+            "entry.2016199571": $('#name').val(),
+            "entry.379738462": $('#name').val(),
+            "entry.2047442481": $('#name').val(),
+            "entry.1549821518": $('#name').val(),
+            "entry.1750931904": $('#name').val(),
+            "entry.83641894": $('#name').val(),
+            "entry.586354853": $('#name').val(),
+            "entry.963077046": $('#name').val(),
+            "entry.1005900906": $('#name').val(),
+            "entry.739259349": $('#name').val(),
+            "entry.231492786": $('#name').val(),
+            "entry.1037511638": $('#name').val(),
+            "entry.1935264909": $('#name').val(),
+            "entry.586750977": $('#name').val(),
+            "entry.1112308684": $('#name').val(),
+            "entry.1169592984": $('#name').val(),
+            "entry.2066025188": $('#name').val()
+
+          },
+          type: "POST",
+          dataType: "JSONP",
+          complete: function () {
+            //完成後把這些欄位清空
+            $('#name').val('')
+            $('#email').val('')
+            $('#score').val('')
+            $('#message').val('')
+            //最後跳轉到感謝的頁面
+            window.location.replace("thank.html");
+          }
+        });
+      }
+    });
+  </script>
+<form id="google-form" class="contact100-form validate-form">
 <div class="container" style="width:60%">
   <h1>食神餐廳</h1>
   <h0>碳解減廢,綠色家園</h0>
